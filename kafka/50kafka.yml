@@ -100,7 +100,7 @@ spec:
       name: data
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: standard
+      storageClassName: my-nfs-storage
       resources:
         requests:
           storage: 10Gi
